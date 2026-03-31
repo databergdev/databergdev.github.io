@@ -4,26 +4,49 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Databerg</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      max-width: 800px;
-      margin: 60px auto;
-      padding: 0 20px;
-      line-height: 1.5;
-    }
-    .muted {
-      color: #666;
-    }
-  </style>
+    <style>
+        body {
+          font-family: system-ui, sans-serif;
+          max-width: 800px;
+          margin: 60px auto;
+          padding: 0 20px;
+          line-height: 1.5;
+        }
+
+        .header {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+        }
+
+        .logo {
+          height: 40px;
+          width: auto;
+        }
+
+        .muted {
+            color: #444;
+        }
+        a {
+            color: inherit;
+            text-decoration: underline;
+        }
+        h1 {
+            font-size: 2.2rem;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-  <h1>Databerg</h1>
-  <p class="muted">
-    I am a software engineer turned actuarial analyst, thinking about how best to enable smart people to gain clean and reproducible insights into messy healthcare data. When I have more to share, I'll put it here.
-  </p>
-  <p class="muted">
-    Contact: <a href="mailto:tom@databerg.dev">tom@databerg.dev</a>
-  </p>
+    <div class="header">
+        <img src="databergLogo.svg" alt="Databerg logo" class="logo" />
+        <h1>Databerg</h1>
+    </div>
+    <p class="muted">
+        I am a software engineer and actuarial analyst building tools and systems that help people get clear answers from messy healthcare data as it evolves. When I have more to share, I'll put it here.
+    </p>
+    <p class="muted">
+        Contact: <a href="mailto:tom@databerg.dev">tom@databerg.dev</a>
+    </p>
 </body>
 </html>
